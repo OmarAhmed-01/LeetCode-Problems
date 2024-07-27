@@ -7,7 +7,6 @@ var theMaximumAchievableX = function(num, t) {
     for (let i = 0; i < t; i++){
         num += 2;
     }
-    console.log(num);
     return num;
 };
 theMaximumAchievableX(3,2)
